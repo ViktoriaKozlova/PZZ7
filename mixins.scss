@@ -1,0 +1,40 @@
+@import "variables1";
+@mixin hotel {
+  li{
+    display: inline;
+    margin:12px;
+    font-size: 18px;
+    font-family: map-get($fonts, textbold);
+  }
+  a{
+    color:white;
+    text-decoration: none;
+  }
+};
+
+
+@mixin menunav{
+  li{
+    display: inline;
+    margin:12px;
+    font-size: 18px;
+    font-family: map-get($fonts, textbold);
+  }
+  a{
+    color:white;
+    text-decoration: none;
+  }
+};
+@mixin menuspisok{
+ padding-left: 900px;
+ a{
+   &:hover{
+     transition: 0.5s;
+     color: #13baed;
+   }
+ }
+};
+@mixin Float-Width() {
+	float: left;
+	width: max-content;
+}
