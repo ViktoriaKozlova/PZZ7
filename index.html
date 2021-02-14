@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script async src="js/lazyload.js"></script>
+<script href = "js/head.load.js"></script>
+    <script src = "http://code.jquery.com/jquery-3.1.1.js"> </script>
+    <style>
+         .scale {
+    transition: 1s; 
+   }
+   .scale:hover {
+    transform: scale(1.2); 
+   }
+    select {
+    width: 300px; 
+    height: 50px;
+    background-color:#FFC0CB;   
+        font-size: 14px;
+   }
+    #ing {
+      position: relative;
+      cursor: pointer;
+    }
+        #ing2 {
+      position: relative;
+      cursor: pointer;
+    }
+        #ing3 {
+      position: relative;
+      cursor: pointer;
+    }
+        #img {
+      position: relative;
+      cursor: pointer;
+    }
+        #img2 {
+      position: relative;
+      cursor: pointer;
+    }
+       #img3 {
+      position: relative;
+      cursor: pointer;
+    }
+        #img4 {
+      position: relative;
+      cursor: pointer;
+    }
+           #img5 {
+      position: relative;
+      cursor: pointer;
+    }
+
+           #img6 {
+      position: relative;
+      cursor: pointer;
+    } 
+           #img7 {
+      position: relative;
+      cursor: pointer;
+    }  
+           #img8 {
+      position: relative;
+      cursor: pointer;
+    }    
+  </style>
+    <title>HOTEL</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    </head>
+    <body style = "padding-top: - "> 
+        <div class = "Hotel" style = "padding-top: 20px; padding-botton: 20pz;">
+         <a name = "Hotelofwebsite"></a>
+        <p><h1>Hotel "NATURE"</h1></p>
+        <select class="select">
+            <option value="#OurServises">Наши услуги</option>
+  <option value="#Rooms" selected>Номера</option>
+             <option value="#AboutUs" selected>Об отеле</option>
+             <option value="#Hotels" selected>Наши отели</option>
+             <option value="#Contact Information" selected>Контактная информация</option>
+             <option value="#FeedBack" selected>Отзыв</option>
+            <option value="Menu" selected>Меню</option>
+            
+</select>
+        </div>
+      <style>
+   .Mid {
+    overflow: scroll; 
+    width: auto; 
+    height: 1000px; 
+    padding: 5px; 
+    border: solid 1px violet; 
+   } 
+    </style>
+        <div class = "Mid">
+        <a name="OurServises"></a>
+        <p><h4><b>Наши услуги</b></h4></p>
+        <p><h3>Наши услуги делятся на два вида. Первые вы можете использовать абсолютно бесплатно. Вторые услуги находятcя в диапазоне 50 - 150 грн. </h3></p>
+<main>
+    <div class="column">
+            <p><h4><b>Включающиеся:</b></h4></p>
+    <ol>
+        <li><p>Еда в номер. <br /><picture>
+        <source media="(min-width:320px)" srcset="1-320w.jpg" >
+      <source media="(min-width:480px)" srcset="1-480w.jpg" >
+      <source media="(min-width:800px)" srcset="1-800w.jpg" >
+<img  id = "img" src="1-800w.jpg" alt="Еда в номер"  />
+    </picture>
+        </p></li>
+        <li><p>Мини бар.<br /><picture>
+        <source media="(min-width:320px)" srcset="2-320w.jpg" >
+      <source media="(min-width:480px)" srcset="2-480w.jpg" >
+      <source media="(min-width:800px)" srcset="2-800w.jpg" >
+<img  id = "img2" class="lazy" data-src="2-800w.jpg" alt="Мини бар"  />
+    </picture></p></li>
+        <li><p>Стирка вещей.<br /><picture>
+        <source media="(min-width:320px)" srcset="3-320w.jpg" >
+      <source media="(min-width:480px)" srcset="3-480w.jpg" >
+      <source media="(min-width:800px)" srcset="3-800w.jpg" >
+<img  id = "img3" class="lazy" data-src="3-800w.jpg" alt="Стирка"  />
+    </picture></p></li>
+         <li><p>Уборка номера<br /><picture>
+        <source media="(min-width:320px)" srcset="4-320w.jpg" >
+      <source media="(min-width:480px)" srcset="4-480w.jpg" >
+      <source media="(min-width:800px)" srcset="4-800w.jpg" >
+<img  id = "img4" class="lazy" data-src="4-800w.jpg" alt="Уборка"  />
+    </picture></p></li>
+    </ol>
+    </div>
+ <div class="column">
+    <p><h4>Дополнительные:</h4></p>
+<ol>
+     <li><p>Бассейн 1 час - 50 грн. <br /><picture>
+        <source media="(min-width:320px)" srcset="5-320w.jpg" >
+      <source media="(min-width:480px)" srcset="5-480w.jpg" >
+      <source media="(min-width:800px)" srcset="5-800w.jpg" >
+<img  id = "img5" class="lazy" data-src="5-800w.jpg" alt="Бассейн"  />
+    </picture></p></li>
+     <li><p>Баня и бассейн 1,5 часа - 100 грн.<br /><picture>
+        <source media="(min-width:320px)" srcset="6-320w.jpg" >
+      <source media="(min-width:480px)" srcset="6-480w.jpg" >
+      <source media="(min-width:800px)" srcset="6-800w.jpg" >
+<img  id = "img6" class="lazy" data-src="6-800w.jpg" alt="Бассейн и баня"  />
+    </picture></p></li>
+     <li><p>Завтрак\обед\ужин в нашем ресторане - 100 грн.<br /><picture>
+        <source media="(min-width:320px)" srcset="7-320w.jpg" >
+      <source media="(min-width:480px)" srcset="7-480w.jpg" >
+      <source media="(min-width:800px)" srcset="7-800w.jpg" >
+<img  id = "img7" class="lazy" data-src="7-800w.jpg" alt="Ресторан"  />
+    </picture></p></li>
+     <li><p>Массаж - 150 грн.<br /><picture>
+        <source media="(min-width:320px)" srcset="8-320w.jpg" >
+      <source media="(min-width:480px)" srcset="8-480w.jpg" >
+      <source media="(min-width:800px)" srcset="8-800w.jpg" >
+<img  id = "img8" class="lazy" data-src="8-800w.jpg" alt="Массаж"  />
+    </picture></p></li>
+</ol>
+</div>
+</div>
+</main>
+    <div class = "Mid2">
+    <a name = "Rooms"></a>
+    <p><h3><b>Номера:</b></h3></p>
+           <style>
+   ul {
+    list-style-image: url(12.png); 
+   }
+  </style>
+    <ul> 
+    <li><p >Обычный - 500 грн сутки.<br /><picture>
+        <source media="(min-width:320px)" srcset="9-320w.jpg" >
+      <source media="(min-width:480px)" srcset="9-480w.jpg" >
+      <source media="(min-width:800px)" srcset="9-800w.jpg" >
+<img  id = "ing" src="9-800w.jpg" alt="Обычный" class ="scale" />
+    </picture></p></li>
+     <li><p >Полулюкс - 1000 грн сутки.<br /><picture>
+        <source media="(min-width:320px)" srcset="10-320w.jpg" >
+      <source media="(min-width:480px)" srcset="10-480w.jpg" >
+      <source media="(min-width:800px)" srcset="10-800w.jpg" >
+<img  id = "ing2" src="10-800w.jpg" alt="Полулюкс" class ="scale" />
+    </picture></p></li>
+     <li><p>Люкс - 1500 грн сутки.<br /><picture>
+        <source media="(min-width:320px)" srcset="11-320w.jpg" >
+      <source media="(min-width:480px)" srcset="11-480w.jpg" >
+      <source media="(min-width:800px)" srcset="11-800w.jpg" >
+<img  id = "ing3" src="11-800w.jpg" alt="Люкс" class ="scale" />
+    </picture></p></li>
+        <hr/>
+</ul>
+        </div> 
+ <div id ="accordeon">
+        <a name="AboutUs"></a>
+       <div class="acc-head">
+			Дружный коллектив
+		</div>
+		<div class="acc-body">
+			Наш коллектив состоит из:  
+ <p>Администратор. Менеджер. Горничные. Повар. ОФицианты. Охрана. Медик. Беллбой</p>
+		</div>
+		<div class="acc-head">
+			Наши Гости
+		</div>
+		<div class="acc-body">
+			В нашем отеле могут поселится гости любой национальности. Персонал хорошо владеет английским и сможет обсужить наших гостей. Звездные гости часто бывают в нашем отеле.Гости, не проживающие в отеле, могут посещать территорию с 7:00 до 23:00 с обязательной регистрацией у администратора отеля. Пользование некоторыми услугами оплачивается дополнительно. Пребывание гостей после 23:00 оплачивается согласно действующему прейскуранту.
+		</div>
+		<div class="acc-head">
+			Чистота отеля
+		</div>
+		<div class="acc-body">
+			Чистота отеля является одним из главнейших инструментов ведения бизнес. Чистота — главный показатель, который показывает отношение к постояльцам гостиницы.Чистота в отеле по профессиональным стандартам.
+		</div>
+        </div>
+<div id="slider-wrap">
+    <div id="active-slide">
+        <div id="slider">
+            <div class="slide"><picture>
+        <source media="(min-width:320px)" srcset="13-320w.jpg" >
+      <source media="(min-width:480px)" srcset="13-480w.jpg" >
+      <source media="(min-width:800px)" srcset="13-800w.jpg" >
+<img src="13-800w.jpg" alt="Коллектив"  />
+    </picture></div>
+            <div class="slide"><picture>
+        <source media="(min-width:320px)" srcset="14-320w.jpg" >
+      <source media="(min-width:480px)" srcset="14-480w.jpg" >
+      <source media="(min-width:800px)" srcset="14-800w.jpg" >
+<img src="14-800w.jpg" alt="Гости" />
+    </picture></div>
+            <div class="slide"><picture>
+        <source media="(min-width:320px)" srcset="15-320w.jpg" >
+      <source media="(min-width:480px)" srcset="15-480w.jpg" >
+      <source media="(min-width:800px)" srcset="15-800w.jpg" >
+<img src="15-800w.jpg" alt="Чистота" />
+    </picture></div>
+        </div>
+    </div>
+</div>
+<div class="tab">
+     <a name="Hotels"></a>
+  <button class="tablinks" onclick="openCity(event, 'Kiev')">Киев</button>
+  <button class="tablinks" onclick="openCity(event, 'Lviv')">Львов</button>
+    <button class="tablinks" onclick="openCity(event, 'Odessa')">Одесса</button>
+  <button class="tablinks" onclick="openCity(event, 'Dragobrat')">Драгобрат</button>
+    <button class="tablinks" onclick="openCity(event, 'Dnipro')">Днепр</button>
+</div>
+<div id="Kiev" class="tabcontent">
+  <h3>Киев</h3>
+  <p>Также, еще один отель находится в городе Киев </p>
+  <picture>
+        <source media="(min-width:320px)" srcset="16-320w.jpg" >
+      <source media="(min-width:480px)" srcset="16-480w.jpg" >
+      <source media="(min-width:800px)" srcset="16-800w.jpg" >
+<img src="16-800w.jpg" alt="Киев" class ="scale"/>
+    </picture>
+</div>
+
+<div id="Lviv" class="tabcontent">
+  <h3>Львов</h3>
+  <p>Ещё один отель располагается в городе Львов </p>
+    <picture>
+        <source media="(min-width:320px)" srcset="17-320w.jpg" >
+      <source media="(min-width:480px)" srcset="17-480w.jpg" >
+      <source media="(min-width:800px)" srcset="17-800w.jpg" >
+<img src="17-800w.jpg" alt="Львов" class ="scale"/>
+    </picture>
+</div>
+<div id="Odessa" class="tabcontent">
+  <h3>Одесса</h3>
+  <p>Третий отель нашей компании находится в Одессе</p>
+    <picture>
+        <source media="(min-width:320px)" srcset="18-320w.jpg" >
+      <source media="(min-width:480px)" srcset="18-480w.jpg" >
+      <source media="(min-width:800px)" srcset="18-800w.jpg" >
+<img src="18-800w.jpg" alt="Одесса" class ="scale" />
+    </picture>
+</div>
+<div id="Dragobrat" class="tabcontent">
+  <h3>Драгобрат</h3>
+  <p>Небольшой отель находится на горнолыжном куросрте Драгобрат </p>
+    <picture>
+        <source media="(min-width:320px)" srcset="19-320w.jpg" >
+      <source media="(min-width:480px)" srcset="19-480w.jpg" >
+      <source media="(min-width:800px)" srcset="19-800w.jpg" >
+<img src="19-800w.jpg" alt="Драгобрат"class ="scale" />
+    </picture>
+</div>
+<div id="Dnipro" class="tabcontent">
+  <h3>Днепр</h3>
+  <p>Последний отель компании расположен возле реки Днепр, в городе Днепр</p>
+    <picture>
+        <source media="(min-width:320px)" srcset="20-320w.jpg" >
+      <source media="(min-width:480px)" srcset="20-480w.jpg" >
+      <source media="(min-width:800px)" srcset="20-800w.jpg" >
+<img src="20-800w.jpg" alt="Днепр" class ="scale"/>
+    </picture>
+</div>
+<div class="column1">
+          <div class="Bottom1">
+            <a name="Contact Information"></a>
+            <p><h3><b>Контактная информация</b></h3></p>
+<table border="2"> 
+    <tr>
+    <td>Адрес</td>
+    <td>Номер телефона</td>
+    <td>Почта</td>
+    </tr>
+    <tr>
+    <td>Город, Улица, Дом</td>
+    <td>+380000000000</td>
+    <td>hotelnature@gmail.com</td>
+    </tr>
+</table>
+     <p><h5>Наш отель работает круглосуточно. На телeфонные звонки отвечаем <br />в течении пару минут. <br />У нас Вы можете узнать есть свободные номера или нет. <br />С уважением администрация отеля!</h5></p>
+          </div>
+</div>
+<div class="column1">
+    <div class = "Mid4">
+<a name="FeedBack"></a>
+            <h3><b>Оставьте нам отзыв:</b></h3>
+            <form>
+                <label for="name">Ф.И.О:</label><br />
+                <input name="name" type="text" placeholder="Введите Ваше имя" /><br /><br />
+                <label for="email">Электронная почта:</label><br />
+                <input name="email" type="email" placeholder="Ваша почта" /><br /><br />
+                <textarea name="message" placeholder="Напишите отзыв"></textarea>
+                <input id="Send" value="Отправить" type="submit" />
+            </form>
+        </div>
+</div>
+
+<script src = "Main.js">  
+</script>
+    </body>
+</html>
